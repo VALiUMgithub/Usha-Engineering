@@ -51,8 +51,8 @@ const Footer = () => {
 					/>
 					<p>Copyright. All rights reserved.</p>
 				</div>
-				<p className='font-montserrat cursor-pointer'>
-					GST No. 27BBBPA2767D2Z2
+				<p className='font-montserrat hover:text-slate-gray cursor-pointer'>
+					<span className="text-md font-semibold">GST No. </span> 27BBBPA2767D2Z2
 				</p>
 			</div>
 		</footer>

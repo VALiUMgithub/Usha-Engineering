@@ -110,14 +110,12 @@ export const reviews = [
 
 export const footerLinks = [
 	{
-		title: "Products",
+		title: "Address",
 		links: [
-			{ name: "Product 1", link: "#products" },
-			{ name: "Product 2", link: "#products" },
-			{ name: "Product 3", link: "#products" },
-			{ name: "Product 4", link: "#products" },
-			{ name: "Product 5", link: "#products" },
-			{ name: "Product 6", link: "#products" },
+			{ name: "Ground floor, D-2 Hill View Chsl,", link: "#products" },
+			{ name: "Uran-Mora road, Bori Pakhadi, Uran,", link: "#products" },
+			{ name: "Dist-Raigad, Navi Mubai-400702", link: "#products" },
+			
 		],
 	},
 	{
