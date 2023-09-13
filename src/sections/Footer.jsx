@@ -49,7 +49,7 @@ const Footer = () => {
 						height={20}
 						className='rounded-full m-0'
 					/>
-					<p>Copyright. All rights reserved.</p>
+					<p>Usha Advance Engineering, All rights reserved.</p>
 				</div>
 				<p className='font-montserrat hover:text-slate-gray cursor-pointer'>
 					<span className="text-md font-semibold">GST No. </span> 27BBBPA2767D2Z2

@@ -13,7 +13,7 @@ const Nav = () => {
 
 	return (
 		<header className='padding-x py-8 absolute z-10 w-full'>
-			<nav className='flex justify-between items-center max-container'>
+			<nav className='flex max-sm:mr-4 justify-between items-center max-container'>
 				<a href='/'>
 					<img
 						src={headerLogo}
@@ -21,7 +21,7 @@ const Nav = () => {
 						className='m-0 w-[100px] h-[50px]'
 					/>
 				</a>
-				<p className='text-sm font-palanquin underline decoration-gray-900 decoration-dashed underline-offset-4 hover:cursor-pointer hover:decoration-wavy text-coral-red'>
+				<p className='text-sm max-sm:mr-4 max-sm:hidden font-palanquin underline decoration-gray-500 hover:decoration-gray-600  decoration-solid decoration-2 underline-offset-4 hover:cursor-pointer hover:decoration-wavy text-red-600 '>
 					USHA ADVANCE ENGINEERING
 				</p>
 				<ul className='flex-1 flex justify-center items-center gap-16 max-lg:hidden'>
@@ -36,13 +36,30 @@ const Nav = () => {
 						</li>
 					))}
 				</ul>
-				<div className='flex gap-2 text-md text-gray-900 hover:text-coral-red text-center leading-normal font-medium font-montserrat max-lg:hidden wide:mr-24'>
-					<a href='/'>Sign in</a>
+				{/* <div className='flex gap-2 text-md text-gray-900 hover:text-coral-red text-center leading-normal font-medium font-montserrat max-lg:hidden wide:mr-24'>
+					<a href='/'>Contact Us</a>
 					<span>/</span>
 					<a href='/'>Explore now</a>
-				</div>
-				<div className='max-lg:block'>
+				</div> */}
+				<div className='lg:hidden'>
           <img src={hamburger} alt='hamburger icon' width={25} height={25} onClick={toggleMenu} style={{ cursor: 'pointer' }} />
+		  {isMenuOpen && (
+        <div className='side-menu bg-white absolute flex  justify-center items-center mt-2 mb-6 inset-x-0'>
+          <ul>
+            {navLinks.map((item) => (
+              <li key={item.label}>
+                <a
+                  href={item.href}
+                  className='font-montserrat mb-2 hover:text-gray-900  leading-normal text-lg text-slate-gray'
+                >
+                  {item.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+          
+        </div>
+      )}
         </div>
 			</nav>
 		</header>

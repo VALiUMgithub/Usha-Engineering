@@ -1,3 +1,6 @@
+import { headerLogo } from "../assets/images";
+import { navLinks } from "../constants";
+import { useState } from "react";
 const Button = ({
 	label,
 	iconURL,
@@ -13,7 +16,7 @@ const Button = ({
 				backgroundColor
 					? `${backgroundColor} ${textColor} ${borderColor}`
 					: "bg-coral-red text-white border-coral-red"
-			} rounded-full ${fullWidth && "w-full"}`}
+			} rounded-full ${fullWidth && "w-full"}`} 
 		>
 			{label}
 
@@ -24,6 +27,7 @@ const Button = ({
 					className='ml-2 rounded-full bg-white w-5 h-5'
 				/>
 			)}
+			
 		</button>
 	);
 };
