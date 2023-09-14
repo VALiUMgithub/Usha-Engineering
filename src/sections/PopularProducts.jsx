@@ -9,7 +9,7 @@ const PopularProducts = () => {
 					Our <span className='text-coral-red'> Popular </span> Products
 				</h2>
 				<p className='lg:max-w-lg mt-2 font-montserrat text-slate-gray'>
-					Experts in manufacturing of large gun barrel liner in very short time.
+				Usha Advance Engineering excels in the precision manufacturing of <span className="text-md font-bold">large gun barrel liners</span> within remarkably short turnaround times.
 				</p>
 			</div>
 

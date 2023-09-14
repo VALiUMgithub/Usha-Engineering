@@ -19,6 +19,12 @@ import {
 	thumbnailShoe1,
 	thumbnailShoe2,
 	thumbnailShoe3,
+	superalloys,
+	barrel1,
+	barrel2,
+	barrel3,
+	barrel4,
+	barrel5
 } from "../assets/images";
 
 export const navLinks = [
@@ -41,6 +47,10 @@ export const shoes = [
 		thumbnail: thumbnailShoe3,
 		bigShoe: bigShoe3,
 	},
+	// {
+	// 	thumbnail: superalloys.svg,
+	// 	bigShoe: superalloys.jpg,
+	// },
 ];
 
 export const statistics = [
@@ -51,38 +61,38 @@ export const statistics = [
 
 export const products = [
 	{
-		imgURL: shoe4,
+		imgURL: barrel5,
 		name: "Product 1",
-		price: "₹200.20",
+		
 	},
 	{
-		imgURL: shoe5,
+		imgURL: barrel3,
 		name: "Product 2",
-		price: "₹210.20",
+		
 	},
 	{
-		imgURL: shoe6,
+		imgURL: barrel1,
 		name: "Product 3",
-		price: "₹220.20",
+		
 	},
 	{
-		imgURL: shoe7,
+		imgURL: barrel2,
 		name: "Product 4",
-		price: "₹230.20",
+		
 	},
 ];
 
 export const services = [
 	{
 		imgURL: truckFast,
-		label: "Free shipping",
-		subtext: "Enjoy seamless shopping with our complimentary shipping service.",
+		label: "Diverse customer base",
+		subtext: "Enjoy versatility of services to cater different requirements.",
 	},
 	{
 		imgURL: shieldTick,
-		label: "Secure Payment",
+		label: "One stop solution",
 		subtext:
-			"Experience worry-free transactions with our secure payment options.",
+			"All your mechanical needs are found here.",
 	},
 	{
 		imgURL: support,
@@ -110,14 +120,12 @@ export const reviews = [
 
 export const footerLinks = [
 	{
-		title: "Products",
+		title: "Address",
 		links: [
-			{ name: "Product 1", link: "#products" },
-			{ name: "Product 2", link: "#products" },
-			{ name: "Product 3", link: "#products" },
-			{ name: "Product 4", link: "#products" },
-			{ name: "Product 5", link: "#products" },
-			{ name: "Product 6", link: "#products" },
+			{ name: "Ground floor, D-2 Hill View Chsl,", link: "#products" },
+			{ name: "Uran-Mora road, Bori Pakhadi, Uran,", link: "#products" },
+			{ name: "Dist-Raigad, Navi Mubai-400702", link: "#products" },
+			
 		],
 	},
 	{
@@ -133,7 +141,7 @@ export const footerLinks = [
 	{
 		title: "Get in touch",
 		links: [
-			{ name: "kiranawasarmal@gmail.com", link: "mailto:customer@nike.com" },
+			{ name: "kiranawasarmal@gmail.com", link: "mailto:kiranawasarmal@gmail.com" },
 			{ name: "8097756605", link: "tel:+918097756605" },
 			{ name: "9757426235", link: "tel:+919757426235" },
 		],
