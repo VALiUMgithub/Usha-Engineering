@@ -18,10 +18,10 @@ const Hero = () => {
 						Metal
 					</span>
 					<br />
-					<span className='text-coral-red inline-block mt-3 '>Supply</span> and
+					<span className='text-coral-red inline-block mt-3 '>Supplier</span> and
 					Mechanical Parts
 					<span className='text-coral-red inline-block mt-3'>
-						Manufacturing
+						Manufacturer
 					</span>
 				</h1>
 

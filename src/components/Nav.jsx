@@ -62,7 +62,7 @@ const Nav = () => {
 					)}
 				</div>
 			</nav>
-			<p className='text-3xl max-sm:mr-4 max-sm:hidden  decoration-gray-500 hover:decoration-gray-600  decoration-solid decoration-2 underline-offset-4 hover:cursor-pointer hover:decoration-wavy text-red-500 '>
+			<p className='text-3xl max-sm:mr-4  decoration-gray-500 hover:decoration-gray-600  decoration-solid decoration-2 underline-offset-4 hover:cursor-pointer hover:decoration-wavy text-red-500 '>
 				USHA ADVANCE ENGINEERING
 			</p>
 		</header>

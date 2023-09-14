@@ -40,7 +40,6 @@ const SpecialOffer = () => {
 						top-tier craftsmanship, innovative solutions,
 					</span>{" "}
 					and unmatched reliability in every project we undertake.
-				One of our <span className="font-semibold">remarkable achievements</span> lies in our unparalleled expertise in the rapid production of <span className="font-semibold underline decoration-cyan-500 hover:decoration-cyan-700 text-gray-900 decoration-2">large gun barrel liner,</span> showcasing our commitment to excellence and efficiency. At Usha Advance Engineering, we are dedicated to delivering <span className="font-semibold underline decoration-green-500 hover:decoration-green-700 text-gray-900 decoration-2">top-tier craftsmanship, innovative solutions,</span> and unmatched reliability in every project we undertake.
 				</p>
 				<p className='mt-6 info-text'>
 					Also supplies specified{" "}
