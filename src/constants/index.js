@@ -61,7 +61,7 @@ export const statistics = [
 
 export const products = [
 	{
-		imgURL: barrel5,
+		imgURL: bigShoe1,
 		name: "Product 1",
 		
 	},

@@ -9,21 +9,13 @@ const Hero = () => {
 			id='home'
 			className='w-full flex  flex-col justify-center min-h-screen gap-10 max-container'
 		>
-			<img
-				className='absolute right-9'
-				src={bigShoeImg}
-				alt=''
-				height={600}
-				width={600}
-			/>
-
 			<div className='relative xl:w-2/5 flex flex-col justify-center items-start w-full  max-xl:padding-x pt-28'>
 				<h1
 					className='mt-10 mb-6 font-palanquin text-6xl max-sm:text-4xl max-sm:leading-[62px] font-bold'
 					style={{ fontSize: "4rem" }}
 				>
 					<span className='xl:bg-white xl:whitespace-nowrap relative z-10 pr-10'>
-						Metal Job
+						Metal
 					</span>
 					<br />
 					<span className='text-coral-red inline-block mt-3 '>Supply</span> and
