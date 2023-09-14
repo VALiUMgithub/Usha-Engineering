@@ -20,13 +20,14 @@ import thumbnailBackground from "./thumbnail-background.svg";
 import thumbnailShoe1 from "./thumbnail-shoe1.svg";
 import thumbnailShoe2 from "./thumbnail-shoe2.svg";
 import thumbnailShoe3 from "./thumbnail-shoe3.svg";
-import superalloys from "./superalloys-bars.jpg"
-import barrel1 from "./barrel1.gif"
-import barrel2 from "./barrel2.gif"
-import barrel3 from "./barrel3.jpeg"
-import barrel4 from "./barrel4.jpeg"
-import barrel5 from "./barrel5.jpg"
- 
+import superalloys from "./superalloys-bars.jpg";
+import barrel1 from "./barrel1.gif";
+import barrel2 from "./barrel2.gif";
+import barrel3 from "./barrel3.jpeg";
+import barrel4 from "./barrel4.jpeg";
+import barrel5 from "./barrel5.jpg";
+import grid from "./grid.svg";
+
 export {
 	bigShoe1,
 	bigShoe2,
@@ -50,5 +51,6 @@ export {
 	barrel2,
 	barrel3,
 	barrel4,
-	barrel5	
+	barrel5,
+	grid,
 };
