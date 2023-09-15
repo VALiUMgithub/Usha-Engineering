@@ -9,7 +9,7 @@ const Hero = () => {
 			id='home'
 			className='pb: w-full flex  flex-col justify-center min-h-screen gap-10 max-container pt-6'
 		>
-			<div className='relative xl:w-2/5 flex flex-col justify-center items-start w-full  max-xl:padding-x pt-6'>
+			<div className='relative xl:w-2/5 flex flex-col justify-center items-start w-full  max-xl:padding-x pt-[100px]'>
 				<h1
 					className='mt-10 mb-6 font-palanquin text-6xl max-sm:text-4xl max-sm:leading-[62px] font-bold'
 					style={{ fontSize: "4rem" }}
@@ -32,11 +32,7 @@ const Hero = () => {
 				<h3
 					className='mt-10 mb-6 max-sm:text-lg font-palanquin text-2xl max-sm:text-[24px] max-sm:leading-[42px] font-bold'
 					style={{ fontSize: "1.5rem" }}
-				>
-					<span className='xl:bg-white bg-gradient-to-r from-blue-500 via-purple-500 to-red-500 bg-clip-text text-transparent xl:whitespace-nowrap relative z-10 pr-10'>
-						Complete Mechanical Solution.
-					</span>
-				</h3>
+				></h3>
 
 				{/* <Button label='Browse Products' iconURL={arrowRight} /> */}
 				{/* <div className='flex justify-start items-start flex-wrap w-full mt-20 gap-16'>
