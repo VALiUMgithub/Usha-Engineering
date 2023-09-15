@@ -15,7 +15,7 @@ const Nav = () => {
 		<header className='padding-x py-8 absolute z-10 w-full'>
 			<nav className='flex max-sm:mr-4 justify-between items-center max-container'>
 				<a href='/'>
-					<img src={headerLogo} alt='logo' className='w-[250px] h-[100px]' />
+					<img src={headerLogo} alt='logo' className='w-[250px] h-[100px] max-sm:w-[100px] max-sm:h-[50px]' />
 				</a>
 
 				<ul className='flex-1 flex justify-center items-end gap-16 max-lg:hidden'>
@@ -23,7 +23,7 @@ const Nav = () => {
 						<li key={item.label}>
 							<a
 								href={item.href}
-								className='font-montserrat hover:text-gray-900  leading-normal text-lg text-slate-gray'
+								className='font-montserrat  hover:text-gray-900  leading-normal text-lg text-slate-gray'
 							>
 								{item.label}
 							</a>
@@ -45,7 +45,7 @@ const Nav = () => {
 						style={{ cursor: "pointer" }}
 					/>
 					{isMenuOpen && (
-						<div className='side-menu bg-white absolute flex  justify-center items-center mt-2 mb-6 inset-x-0'>
+						<div className='side-menu bg-black absolute flex  justify-center items-center mt-2 mb-6 inset-x-0'>
 							<ul>
 								{navLinks.map((item) => (
 									<li key={item.label}>
@@ -62,7 +62,7 @@ const Nav = () => {
 					)}
 				</div>
 			</nav>
-			<p className='text-3xl max-sm:mr-4  decoration-gray-500 hover:decoration-gray-600  decoration-solid decoration-2 underline-offset-4 hover:cursor-pointer hover:decoration-wavy text-red-500 '>
+			<p className='text-2xl max-sm:mr-4  decoration-gray-500 hover:decoration-gray-600  decoration-solid decoration-2 underline-offset-4 hover:cursor-pointer hover:decoration-wavy text-red-500 '>
 				USHA ADVANCE ENGINEERING
 			</p>
 		</header>
