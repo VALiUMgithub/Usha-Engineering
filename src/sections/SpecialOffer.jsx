@@ -39,7 +39,7 @@ const SpecialOffer = () => {
 					<span className='font-semibold'>remarkable achievements</span> lies in
 					our unparalleled expertise in the rapid production of{" "}
 					<span className='font-semibold underline decoration-cyan-500 hover:decoration-cyan-700 text-gray-900 decoration-2'>
-						large gun barrels liner,
+						large gun barrels liner in a very short time,
 					</span>{" "}
 					showcasing our commitment to excellence and efficiency. At Usha
 					Advance Engineering, we are dedicated to delivering{" "}
