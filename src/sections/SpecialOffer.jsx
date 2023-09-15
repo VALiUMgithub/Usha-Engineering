@@ -28,6 +28,13 @@ const SpecialOffer = () => {
 					</span>
 				</p>
 				<p className='mt-6 info-text'>
+					Also supplies specified{" "}
+					<span className='font-semibold underline decoration-green-500 hover:decoration-green-700 text-gray-900 decoration-2'>
+						ferrous and non ferrous metals
+					</span>{" "}
+					in all types and all shapes and sizes
+				</p>
+				<p className='mt-6 info-text'>
 					One of our{" "}
 					<span className='font-semibold'>remarkable achievements</span> lies in
 					our unparalleled expertise in the rapid production of{" "}
@@ -41,13 +48,7 @@ const SpecialOffer = () => {
 					</span>{" "}
 					and unmatched reliability in every project we undertake.
 				</p>
-				<p className='mt-6 info-text'>
-					Also supplies specified{" "}
-					<span className='font-semibold underline decoration-green-500 hover:decoration-green-700 text-gray-900 decoration-2'>
-						ferrous and non ferrous metals
-					</span>{" "}
-					in all types and all shapes and sizes
-				</p>
+				
 
 				{/* <div className='mt-11 flex flex-wrap gap-4'>
 					<Button label='Shop now' iconURL={arrowRight} />
