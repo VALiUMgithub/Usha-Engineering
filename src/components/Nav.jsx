@@ -62,9 +62,9 @@ const Nav = () => {
 					)}
 				</div>
 			</nav>
-			<p className='text-2xl max-sm:mr-4  decoration-gray-500 hover:decoration-gray-600  decoration-solid decoration-2 underline-offset-4 hover:cursor-pointer hover:decoration-wavy text-red-500 '>
-				USHA ADVANCE ENGINEERING
-			</p>
+			<span className='text-center xl:bg-white text-2xl bg-gradient-to-r from-blue-500 via-purple-500 to-red-500 bg-clip-text text-transparent xl:whitespace-nowrap relative z-10 pr-10'>
+				Complete Mechanical Solution.
+			</span>
 		</header>
 	);
 };
