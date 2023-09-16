@@ -14,14 +14,14 @@ const Hero = () => {
 					className='mt-10 mb-6 font-palanquin text-6xl max-sm:text-4xl max-sm:leading-[62px] font-bold'
 					style={{ fontSize: "4rem" }}
 				>
-					<span className='max-sm:text-4xl xl:bg-white xl:whitespace-nowrap relative z-10 pr-10'>
+					<span className='max-sm:text-4xl  xl:whitespace-nowrap relative z-10 pr-10'>
 						Metal
 					</span>
 					<br />
 					<span className='max-sm:text-4xl text-coral-red inline-block mt-3 '>
 						Supplier
 					</span>{" "}
-					<span className='max-sm:text-4xl xl:bg-white xl:whitespace-nowrap relative z-10 pr-10'>
+					<span className='max-sm:text-4xl   relative '>
 						and Mechanical Parts
 					</span>
 					<span className='max-sm:text-4xl text-coral-red inline-block mt-3'>
