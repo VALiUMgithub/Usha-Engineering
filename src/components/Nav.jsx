@@ -15,7 +15,7 @@ const Nav = () => {
 		<header className='padding-x py-8 absolute z-10 w-full'>
 			<nav className='flex max-sm:mr-4 justify-between items-center max-container'>
 				<a href='/'>
-					<img src={headerLogo} alt='logo' className='w-[250px] h-[100px] max-sm:w-[100px] max-sm:h-[50px]' />
+					<img src={headerLogo} alt='logo' className='w-[250px] h-[100px]' />
 				</a>
 
 				<ul className='flex-1 flex justify-center items-end gap-16 max-lg:hidden'>
