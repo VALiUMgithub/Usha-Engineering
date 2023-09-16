@@ -17,9 +17,6 @@ const Nav = () => {
 				<a href='/'>
 					<img src={headerLogo} alt='logo' className='w-[250px] h-[100px] max-sm:w-[100px] max-sm:h-[50px]' />
 				</a>
-				<p className='text-1xl max-sm:mr-4  decoration-gray-500 hover:decoration-gray-600  decoration-solid decoration-2 underline-offset-4 hover:cursor-pointer hover:decoration-wavy '>
-					USHA ADVANCE ENGINEERING
-				</p>
 
 				<ul className='flex-1 flex justify-center items-end gap-16 max-lg:hidden'>
 					{navLinks.map((item) => (
@@ -65,6 +62,9 @@ const Nav = () => {
 					)}
 				</div>
 			</nav>
+			<span className='text-center xl:bg-white text-2xl bg-gradient-to-r from-blue-500 via-purple-500 to-red-500 bg-clip-text text-transparent xl:whitespace-nowrap relative z-10 pr-10'>
+				Complete Mechanical Solution.
+			</span>
 		</header>
 	);
 };
