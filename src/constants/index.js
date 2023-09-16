@@ -129,16 +129,6 @@ export const footerLinks = [
 		],
 	},
 	{
-		title: "Help",
-		links: [
-			{ name: "About us", link: "/" },
-			{ name: "FAQs", link: "/" },
-			{ name: "How it works", link: "/" },
-			{ name: "Privacy policy", link: "/" },
-			{ name: "Payment policy", link: "/" },
-		],
-	},
-	{
 		title: "Get in touch",
 		links: [
 			{ name: "kiranawasarmal@gmail.com", link: "mailto:kiranawasarmal@gmail.com" },
