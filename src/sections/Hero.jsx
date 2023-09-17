@@ -14,7 +14,7 @@ const Hero = () => {
 					className='mt-10 mb-6 font-palanquin text-6xl max-sm:text-4xl max-sm:leading-[62px] font-bold'
 					style={{ fontSize: "4rem" }}
 				>
-					<span className='max-sm:text-4xl  xl:whitespace-nowrap relative z-10 pr-10'>
+					<span className='max-sm:text-4xl  relative'>
 						Metal
 					</span>
 					<br />
