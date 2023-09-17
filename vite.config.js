@@ -14,4 +14,17 @@ export default defineConfig({
     // Make environment variables accessible in your Vite app code
     'import.meta.env': env,
   },
+  server: {
+    configureServer: ({ middlewares }) => {
+      middlewares.use((req, res, next) => {
+        // Check if the request has the host "example.com" and is for the root path ("/").
+        if (req.url === '/' && req.headers.host === 'ushaadvancedengineering.me') {
+          // Set the "X-Robots-Tag" header to "noindex".
+          res.setHeader('X-Robots-Tag', 'noindex');
+        }
+        // Continue processing the request.
+        next();
+      });
+    },
+  },
 })
