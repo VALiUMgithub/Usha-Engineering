@@ -22,7 +22,7 @@ const Footer = () => {
 				<div className='flex flex-1 justify-between lg:gap-10 gap-20 flex-wrap'>
 					{footerLinks.map((section) => (
 						<div key={section.title}>
-							<h4 className='font-montserrat text-2xl leading-normal font-medium mb-6 text-white'>
+							<h4 className='font-montserrat text-2xl leading-normal font-bold mb-6 text-white'>
 								{section.title}
 							</h4>
 							<ul>

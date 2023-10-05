@@ -7,21 +7,21 @@ const Hero = () => {
 	return (
 		<section
 			id='home'
-			className='pb: w-full flex  flex-col justify-center min-h-screen gap-10 max-container pt-6'
+			className=' w-full flex  flex-col justify-center min-h-screen gap-10 max-container pt-6'
 		>
 			<div className='relative xl:w-2/5 flex flex-col justify-center items-start w-full  max-xl:padding-x pt-[100px]'>
 				<h1
 					className='mt-10 mb-6 font-palanquin text-6xl max-sm:text-4xl max-sm:leading-[62px] font-bold'
 					style={{ fontSize: "4rem" }}
 				>
-					<span className='max-sm:text-4xl xl:bg-white xl:whitespace-nowrap relative z-10 pr-10'>
+					<span className='max-sm:text-4xl  relative'>
 						Metal
 					</span>
 					<br />
 					<span className='max-sm:text-4xl text-coral-red inline-block mt-3 '>
 						Supplier
 					</span>{" "}
-					<span className='max-sm:text-4xl xl:bg-white xl:whitespace-nowrap relative z-10 pr-10'>
+					<span className='max-sm:text-4xl   relative '>
 						and Mechanical Parts
 					</span>
 					<span className='max-sm:text-4xl text-coral-red inline-block mt-3'>
@@ -30,7 +30,7 @@ const Hero = () => {
 				</h1>
 
 				<h3
-					className='mt-10 mb-6 max-sm:text-lg font-palanquin text-2xl max-sm:text-[24px] max-sm:leading-[42px] font-bold'
+					className='mt-10 mb-2 max-sm:text-lg font-palanquin text-2xl max-sm:text-[24px] max-sm:leading-[42px] font-bold'
 					style={{ fontSize: "1.5rem" }}
 				></h3>
 
