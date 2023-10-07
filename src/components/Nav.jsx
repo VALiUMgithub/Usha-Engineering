@@ -9,13 +9,19 @@ const Nav = () => {
   // Function to toggle the menu state
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
-    
+
     // Disable or enable scrolling on the body based on menu state
     if (!isMenuOpen) {
       document.body.style.overflow = 'hidden';
     } else {
       document.body.style.overflow = 'unset';
     }
+  };
+
+  // Function to close the menu
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+    document.body.style.overflow = 'unset'; // Enable scrolling
   };
 
   return (
@@ -31,6 +37,7 @@ const Nav = () => {
               <a
                 href={item.href}
                 className='font-montserrat  hover:text-gray-900  leading-normal text-lg text-slate-gray'
+                onClick={closeMenu} // Close the menu when a list item is clicked
               >
                 {item.label}
               </a>
@@ -48,7 +55,7 @@ const Nav = () => {
             style={{ cursor: "pointer" }}
           />
         </div>
-        
+
         <div className="">
           {isMenuOpen && (
             <div className='sidebar-menu bg-opacity-95 items-center absolute flex flex-col  justify-center  mt-2 mb-6  h-screen bg-white w-3/4 right-0'>
@@ -58,6 +65,7 @@ const Nav = () => {
                     <a
                       href={item.href}
                       className='font-montserrat  font-bold  hover:text-gray-500 text-2xl leading-normal  text-gray-900'
+                      onClick={closeMenu} // Close the menu when a list item is clicked
                     >
                       {item.label}
                     </a>
@@ -70,7 +78,7 @@ const Nav = () => {
       </nav>
 
       {/* Sidebar Menu */}
-      
+
       <span className='text-center xl:bg-white text-2xl bg-gradient-to-r from-blue-500 via-purple-500 to-red-500 bg-clip-text text-transparent  '>
         Complete Mechanical Solution.
       </span>
