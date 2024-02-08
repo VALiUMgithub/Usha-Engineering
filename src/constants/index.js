@@ -122,18 +122,18 @@ export const footerLinks = [
 	{
 		title: "Address",
 		links: [
-			{ name: "Ground floor, D-2 Hill View Chsl,", link: "#products" },
-			{ name: "Uran-Mora road, Bori Pakhadi, Uran,", link: "#products" },
-			{ name: "Dist-Raigad, Navi Mubai-400702", link: "#products" },
+			{ name: "104/2C, 2nd Floor, Lawrence & Moya House", link: "#products" },
+			{ name: "Village/Town - Mumbai, Block - Fort", link: "#products" },
+			{ name: "Road/Street/Lane - D N Road, City - Mumbai", link: "#products" },
+			{ name: "District - Raigad, Navi Mubai-400001, State - Maharashtra", link: "#products" },
 			
 		],
 	},
 	{
 		title: "Get in touch",
 		links: [
-			{ name: "kiranawasarmal@gmail.com", link: "mailto:kiranawasarmal@gmail.com" },
-			{ name: "8097756605", link: "tel:+918097756605" },
-			{ name: "9757426235", link: "tel:+919757426235" },
+			{ name: "ushadvancengineering@gmail.com", link: "mailto:ushadvancengineering@gmail.com" },
+			{ name: "7738756766", link: "tel:+917738756766" },
 		],
 	},
 ];
